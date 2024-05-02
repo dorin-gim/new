@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1A272E !important; 
+    /* bootstrap background over hide */
+      background-image: url("./background\ img.png ");
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-blend-mode: soft-light ;
+}
+
+.navbar-container{
+    background-color: #151B1E;
+    display: block;
+    position: fixed;
+    width: 212px;
+    height: 100vh;
+}
+
+.navbar-container  .logo  img{
+    width: 95px;
+    display: block;
+    margin: 49px 58px 105px 58px;
+}
+
+.navbar-container .navbar nav ul{
+    list-style-type: none;
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.navbar-container .navbar nav ul a{
+    color: #FEFAF6;
+    text-decoration: none;
+    line-height: 2;
+    font-family: alumni sans;
+    font-size: 26px;
+    font-weight: light;
+}
+
+.navbar-container .navbar nav ul a:hover{
+    color: #6CE8BB;
+    font-size: 30px;
+}
+
+.navbar-container .social-media-links{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.navbar-container .social-media-links img{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.container-title{
+    font-family: alumni sans;
+    display: flex;
+    flex-direction: column;
+    margin-left: 290px;
+}
+
+
+.container-title .title h1{
+    margin-top: 200px;
+    font-size: 120px;
+    color: #FEFAF6;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.container-title .title h1 span{
+    color: #6CE8BB;
+}
+
+.container-title .title-button button{
+    width: 189px;
+    height: 49px;
+    color: #6CE8BB;
+    font-size: 30px;
+    font-weight: medium;
+    background-color: #1A272E;
+    border: 2px solid #6CE8BB;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.about-me-container{
+    font-family: alumni sans;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 290px;
+}
+
+.about-me-container .title h2{
+    font-size: 100px;
+    color: #6CE8BB;
+    font-weight: bolder;
+}
+
+.about-me-container .title h2 span{
+    font-weight: bold;
+    color: #FEFAF6;
+}
+
+.about-me-container .paragraph{
+    font-size: 22px;
+    line-height: 2;
+    width: 681px;
+    font-weight: lighter;
+    color: #FEFAF6;
+}
+
+.about-me-container .skills .skills-title h3{
+    color: #6CE8BB;
+    font-size: 60px;
+    font-weight: medium;
+    margin-top: 70px;
+}
+
+.about-me-container .skills .skills-title h3 span{
+    color: #FEFAF6;
+}
+
+.about-me-container .skills .skills-imgs{
+    display: flex;
+}
+.about-me-container .skills .skills-imgs img{
+    margin: 20px;
+}
+
+.about-me-container .skills .skills-imgs  h3{
+     color: #6CE8BB;
+    font-size: 60px;
+    font-weight: medium;
+}
+
+
+.about-me-container .container-button button{
+    width: 189px;
+    height: 49px;
+    background-color: #6CE8BB;
+    margin-top: 70px;
+    border: none;
+}
+
+.about-me-container .container-button button a{
+    text-decoration: none;
+    color: #1A272E;
+    font-size: 30px;
+    font-weight: medium;   
+}
+
+.about-me-container .container-button button:hover{
+    background-color: #1A272E;
+    color: #6CE8BB;
+    border: 1px solid #6CE8BB;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.about-me-container .container-button button a:hover{
+    color: #6CE8BB;
+    box-shadow: #FEFAF6;
+}
+
+.selected-projects-container{
+    font-family: alumni sans;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 290px;
+}
+
+.selected-projects-container .title h2{
+    font-size: 100px;
+    color: #6CE8BB;
+    font-weight: bolder;
+}
+
+.selected-projects-container .title span{
+    color: #FEFAF6;
+}
+
+.selected-projects-container .project{
+    background-color: #1A272E;
+    color: #FEFAF6;
+    border: none;
+    height: 290px;
+    margin-top: 100px;
+}
+
+.selected-projects-container .project .project-img{
+    width: 405px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.selected-projects-container .project .softwares img{
+    width: 30px;
+    margin: 20px 20px 20px 0;
+}
+
+.selected-projects-container .project h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.selected-projects-container .project p{
+    font-size: 18px;
+    width: 347px;
+}
+
+.selected-projects-container .project .button button{
+    width: 189px;
+    height: 49px;
+    color: #6CE8BB;
+    background-color: #1A272E;
+    font-size: 30px;
+    font-weight: medium;
+    border: 2px solid #6CE8BB;
+    text-align: center;
+}
+
+.selected-projects-container .container-button button{
+    text-decoration: none;
+    color: #1A272E;
+    font-size: 30px;
+    font-weight: medium;
+    width: 189px;
+    height: 49px;
+    background-color: #6CE8BB;
+    margin-top: 50px;
+    border: none; 
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 290px;
+    font-family: alumni sans;
+}
+
+.contact-form  .contact-form-title h2{
+    font-size: 100px;
+    color: #6CE8BB;
+    font-weight: bolder;
+}
+
+.contact-form  .contact-form-title span{
+    color: #FEFAF6;
+}
+
+.contact-form .form-control{
+    background-color: #1A272E;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.contact-form .form-control label{
+    font-size: 20px;
+    color: #FEFAF6;
+    font-weight: medium;
+}
+
+.contact-form .form-control input{
+    background-color: #1A272E;
+    border: 2px solid #6CE8BB;
+    width: 520px;
+    height: 50px;
+}
+
+.contact-form .form-control #message{
+    height: 150px;
+}
+
+
+.contact-form form .form-button input{
+    text-decoration: none;
+    color: #1A272E;
+    font-size: 30px;
+    font-weight: medium;
+    width: 189px;
+    height: 49px;
+    background-color: #6CE8BB;
+    margin-top: 50px;
+    border: none;   
+}
+
+.contact-form form .form-button input:hover{
+    background-color: #1A272E;
+    color: #6CE8BB;
+    border: 1px solid #6CE8BB;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.foother{
+    margin-top: 200px;
+    width: 100%;
+    background-color: #6CE8BB;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.foother h5{
+    margin-top: 15px;
+    margin-left: 290px;
+    font-family: alumni sans;
+}
+
+.foother .email{
+    margin-left: 830px;
+}
+
+
+
