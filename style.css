@@ -116,7 +116,8 @@ body{
 }
 
 .about-me-container .paragraph{
-    font-size: 22px;
+    font-family: inter;
+    font-size: 18px;
     line-height: 2;
     width: 681px;
     font-weight: lighter;
