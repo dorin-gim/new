@@ -5,12 +5,20 @@
 }
 
 body{
-    background-color: #1A272E !important; 
-    /* bootstrap background over hide */
+    background-color: #1A272E; 
       background-image: url("./background\ img.png ");
       background-repeat: no-repeat;
       background-position: right top;
       background-blend-mode: soft-light ;
+}
+
+.hamburger{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #FEFAF6;
+    height: 40px;
+    line-height: 2;
+    display: none;
 }
 
 .navbar-container{
@@ -123,7 +131,7 @@ body{
     color: #FEFAF6;
 }
 
-.about-me-container .paragraph{
+.about-me-container .text{
     font-family: inter;
     font-size: 18px;
     line-height: 2;
@@ -151,7 +159,7 @@ body{
 }
 
 .about-me-container .skills .skills-imgs  h3{
-     color: #6CE8BB;
+    color: #6CE8BB;
     font-size: 60px;
     font-weight: medium;
 }
@@ -212,7 +220,7 @@ body{
 }
 
 .cards-container{
-    display: block;
+    /* display: block; */
     margin: 0 auto;
     padding: 100px;
 }
@@ -281,16 +289,6 @@ body{
     grid-column: 2/4;
     grid-row: 1/4;
 }
-/* .selected-projects-container .project .button button{
-    width: 189px;
-    height: 49px;
-    color: #6CE8BB;
-    background-color: #1A272E;
-    font-size: 30px;
-    font-weight: medium;
-    border: 2px solid #6CE8BB;
-    text-align: center;
-} */
 
 .selected-projects-container .container-button button{
     text-decoration: none;
@@ -346,7 +344,6 @@ body{
     height: 150px;
 }
 
-
 .contact-form form .form-button input{
     font-family: alumni sans;
     text-decoration: none;
@@ -385,6 +382,180 @@ body{
 
 .foother .email{
     margin-left: 830px;
+}
+
+@media (max-width: 576px){
+
+body{
+    background-size: inherit;
+    background-position: center top;
+    background-image: url("./responssive pics/background.png ");
+}
+
+    
+.main-container{
+        margin: 0 auto;
+        width: 100vw;
+    }
+
+.hamburger{
+    display: block;
+    margin: 40px 0 0 25px;
+}
+
+.navbar-container{
+    flex-direction: column;
+    display: none;
+}
+
+.container-title{
+    margin-left: 25px;
+    width: 100vw;
+}
+
+.container-title .title h1{
+    font-size: 95px;
+}
+
+.container-title .title-button button{
+    width: 138px;
+    height: 36px;
+    font-size: 22px;
+    margin-top: 100px;
+}
+
+.about-me-container{
+    margin: 200px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.about-me-container .title h2{
+    font-size: 50px;
+}
+
+.about-me-container .text{
+    font-size: 16px;
+    width: 85vw;
+}
+
+.about-me-container .skills .skills-title h3{
+    font-size: 30px;
+}
+
+.about-me-container .skills .skills-imgs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    padding: 20px;
+    ustify-items: center;
+}
+
+.about-me-container .skills .skills-imgs img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.about-me-container .skills .skills-imgs  h3{
+    font-size: 30px;
+    margin: 30px auto;
+}
+
+.about-me-container .container-button button{
+    width: 140px;
+    height: 36px;
+}
+
+.about-me-container .container-button button a{
+    font-size: 22px;
+}
+
+
+.selected-projects-container{
+    margin: 100px auto;
+    text-align: center;
+}
+
+
+.selected-projects-container .title h2{
+    font-size: 50px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+}
+
+.cards-container .card-left{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 100px;
+}
+
+.cards-container .card-right{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 100px;
+}
+
+.card .card-title{
+    font-size: 24px;
+}
+
+.card .card-text{
+    font-size: 16px;
+}
+
+.card .card-button button{
+    width: 138px;
+    height: 36px;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.contact-form{
+    width: 85vw;
+    margin: 200px auto;
+}
+
+.contact-form  .contact-form-title h2{
+    font-size: 50px;
+}
+
+.contact-form .form-control label{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contact-form .form-control input{
+    width: 100%;
+    height: 40px;
+}
+
+.contact-form form .form-button input{
+    width: 140px;
+    height: 36px;
+    font-size: 22px;
+}
+
+.foother{
+    margin: 100px auto 0 0;   
+    justify-content: space-around
+}
+
+.foother h5{
+    font-size: 16px;
+    margin: 0 25px;
+}
+
+.foother .email{
+    margin: 0;
+}
 }
 
 
