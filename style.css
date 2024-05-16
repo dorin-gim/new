@@ -407,6 +407,8 @@ body{
     display: none;
     height: 100vh;
     width: 200px;
+    position: absolute;
+    top:0;
 }
 
 .navbar-container  .logo  img{
@@ -426,8 +428,12 @@ body{
     font-size: 20px;
 }
 
+.navbar-container .social-media-links{
+    width: 100%;
+}
+
 .navbar-container .social-media-links img{
-    width: 50px;
+    width: 60%;
 }
 
 .container-title{
@@ -471,7 +477,7 @@ body{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
     padding: 20px;
-    ustify-items: center;
+    justify-items: center;
 }
 
 .about-me-container .skills .skills-imgs img{
