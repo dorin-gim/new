@@ -6,10 +6,10 @@
 
 body{
     background-color: #1A272E; 
-      background-image: url("./background\ img.png ");
-      background-repeat: no-repeat;
-      background-position: right top;
-      background-blend-mode: soft-light ;
+    background-image: url("./background\ img.png ");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-blend-mode: soft-light ;
 }
 
 .hamburger{
@@ -219,7 +219,6 @@ body{
 }
 
 .cards-container{
-    /* display: block; */
     margin: 0 auto;
     padding: 100px;
 }
@@ -371,17 +370,21 @@ body{
     font-size: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between
 }
 
-.foother h5{
-    margin-top: 15px;
+.foother p{
+    
     margin-left: 290px;
     font-family: alumni sans;
+    font-weight: bold;
 }
 
 .foother .email{
-    margin-left: 830px;
+    margin-right: 60px;
 }
+
+
 
 @media (max-width: 576px){
 
